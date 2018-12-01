@@ -1,5 +1,10 @@
 /target/
+/node_modules/
 !.mvn/wrapper/maven-wrapper.jar
+
+### Compiled ###
+tutorial.iml
+src/main/resources/static.built/
 
 ### STS ###
 .apt_generated
