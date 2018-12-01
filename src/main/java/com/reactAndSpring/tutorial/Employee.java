@@ -1,8 +1,15 @@
-@Data
+package com.reactAndSpring.tutorial;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import lombok.Data;
+
 @Entity
 public class Employee {
 
-private @Id @GeneratedValue Long id;
+	private @Id @GeneratedValue Long id;
 	private String firstName;
 	private String lastName;
 	private String description;
